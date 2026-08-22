@@ -1,0 +1,157 @@
+
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UKO'z Foundation </title>
+
+<style>
+    .logo{
+        background-image: url(uko.png);
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 80px;
+        top: 0;
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50px;
+        border: #0B5D3B solid;
+        background-position: center;
+        background-size: cover;
+        
+
+    }
+body{margin:0;font-family:Arial,sans-serif;background:#f5f8f6;color:#222;scroll-behavior:smooth}
+nav{position:fixed;top:0;width:100%;display:flex; justify-content: flex-end;padding:0px -20px;background:rgba(11, 93, 59, 0.986);color:#fff;z-index:9}
+nav a {color:#fff;text-decoration:none; margin-left:20px;}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding-right: 1.5rem;
+    
+}
+#Name{
+    
+    margin-right: 250px;
+}
+
+/* nav a{
+    text-decoration: none;
+    color: #fff;
+} */
+ .whatsap{
+    background-color: #0B5D3B;
+    width: 9rem;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    
+    border-radius: 20px;
+    
+    margin:0 20px;
+
+
+    margin: 50px;
+    text-align: center;
+    
+ }
+ .whatsap a{
+    text-decoration: none;
+    
+    color: #fff;
+    
+ }
+.contact{padding:40px 20%;margin-right: 100px;}
+.hero{height:100vh;background:linear-gradient(rgba(2, 58, 35, 0.945),rgba(3, 51, 31, 0.849)),url('uko.png') center/cover;display:flex;align-items:center;justify-content:center;
+text-align:center;color:#fff}
+.hero h1{font-size:44px}.btn{padding:12px 28px;border-radius:30px;background:#fff;color:#0B5D3B;text-decoration:none;font-weight:bold;display:inline-block;margin:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;padding:24px;border-radius:18px;box-shadow:0 8px 24px rgba(0,0,0,.08);transition:.3s}.card:hover{transform:translateY(-6px)}
+.impact{background:#0B5D3B;color:#fff}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.num{font-size:32px;font-weight:bold}
+.gallery img{width:100%;border-radius:16px}.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:20px; }
+
+footer{background:#083c28;color:#fff;text-align:center;padding:30px}
+input,textarea{width:100%;padding:12px;margin:8px 0;border-radius:10px;border:1px solid #ccc}button{background:#0B5D3B;color:#fff;border:0;padding:12px 22px;border-radius:10px}
+@media(max-width:700px){.hero h1{font-size:38px}.stats{grid-template-columns:repeat(2,1fr)}nav{padding:12px 16px;font-size:14px}}
+</style></head><body>
+    
+<nav><ul>
+    <b id="Name">UKO'z Foundation</b>
+    <li><a href=#about>About</a></li>
+    <li><a href=#programs>Programs</a></li>
+    <li><a href=#impact>Impact</a></li>
+    <li><a href=#contact>Contact</a></li>
+</ul></nav>
+<div class="logo"></div>
+<section class=hero><div><h1>Restoring Hope,<br>Promoting Healthy Living</h1><p>Supporting elderly people, widows and vulnerable communities through healthcare and nutrition.</p><a class=btn href=#contact>Donate Now</a></div></section>
+<section id=about><h2>About Us</h2><p>UKO'z Foundation is dedicated to improving lives through healthcare outreach, nutritional education, elderly care and community empowerment.</p></section>
+<section id=programs><h2>Our Programs</h2><div class=grid>
+<div class=card><h3>Healthcare Outreach</h3><p>Free screenings and wellness programs.</p></div>
+<div class=card><h3>Nutrition</h3><p>Healthy living education and support.</p></div>
+<div class=card><h3>Elderly Care</h3><p>Dignified care for seniors.</p></div>
+<div class=card><h3>Community Support</h3><p>Partnering to strengthen communities.</p></div>
+</div></section>
+<section class=impact id=impact><h2>Our Impact</h2><div class=stats><div><div class=num data-t=500>0</div>Lives</div><div><div class=num data-t=100>0</div>Outreachs</div><div><div class=num data-t=50>0</div>Volunteers</div><div><div class=num data-t=20>0</div>Partners</div></div></section>
+<section><h2>Our Movement</h2><div class=gallery>
+<img src="uko1.jpg"><img src="uko2.jpg"><img src="uko3.jpg">
+<img src="uko4.jpg"></div></section>
+<div class="whatsap">
+<a href="https://wa.me/2348100626165?text=Hello%20UKOZ%20Foundation,%20I%20would%20like%20to%20learn%20more%20about%20your%20programs." target="_blank" rel="noopener noreferrer">
+  send us a message
+</a>
+</div>
+
+<form action="https://formspree.io/f/mgogbaeo" method="POST">
+<section class=contact id=contact>
+    <input
+        type="text"
+        name="name"
+        placeholder="Full Name"
+        required>
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Email Address"
+        required>
+
+    <input
+        type="tel"
+        name="phone"
+        placeholder="Phone Number">
+
+    <select name="purpose">
+
+        <option value="">Select Purpose</option>
+
+        <option>Donate</option>
+
+        <option>Volunteer</option>
+
+        <option>Partner</option>
+
+        <option>General Inquiry</option>
+
+    </select>
+
+    <textarea
+        name="message"
+        rows="6"
+        placeholder="Write your message..."
+        required></textarea>
+
+    <button type="submit">
+
+        Send Message
+
+    </button>
+    
+
+</form>
+
+</section>
+
+<footer>©2026 UKO'z Foundation • Restoring Hope, Promoting Healthy Living
+    
+</footer>
+<script>
+document.querySelectorAll('.num').forEach(n=>{let t=+n.dataset.t,c=0;let i=setInterval(()=>{c+=Math.ceil(t/50);if(c>=t){c=t;clearInterval(i)}n.textContent=c+"+"},30)})
+</script></body></html>
+
+<!-- https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?auto=format&fit=crop&w=1600&q=80 -->
